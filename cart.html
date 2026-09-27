@@ -223,7 +223,14 @@ body{background:radial-gradient(rgba(27,17,64,.1) 2px,transparent 2.5px) 0 0/24p
 .sm .b{width:100%;margin-bottom:12px}.b3{background:none;box-shadow:none;color:var(--ink);border:3px solid var(--ink)}.b3:hover{background:var(--y)}
 .ok{color:#16a34a;font-weight:800;font-size:13.5px;margin-top:8px;display:none}.ok.show{display:block}
 @media(max-width:900px){.cg{grid-template-columns:minmax(0,1fr)}.sm{position:static}}
-@media(max-width:520px){.it{flex-wrap:wrap}.ilr{width:100%;justify-content:space-between;margin-inline-start:92px}}
+@media(max-width:560px){
+ .it{flex-wrap:wrap;gap:10px 14px;padding:14px}
+ .ilr{flex:1 1 100%;width:100%;justify-content:space-between;margin-inline-start:0;gap:10px}
+ .ilp{min-width:0;font-size:16px}
+ .iq button{width:32px;height:32px;font-size:16px}
+ .iq output{min-width:32px;font-size:14px}
+ .idl{width:38px;height:38px;flex:none}
+}
 </style></head>
 <body>
 <header class="hd" id="hd"><div class="in">
